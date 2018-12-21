@@ -1,0 +1,31 @@
+user-bar {
+  .content {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    padding: 50px 15px 0 15px;
+    background: linear-gradient(to left, #1CC1B9, #28e4b4);
+
+
+    .user {
+      box-sizing: content-box;
+      height: 50px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+
+      p {
+        margin: 0;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+        border-radius: 50%;
+
+        img {
+          height: 100%;
+          width: 50px;
+        }
+      }
+    }
+  }
+}

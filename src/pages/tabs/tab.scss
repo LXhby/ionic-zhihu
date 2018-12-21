@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Ionicons";
+  src: url('../../assets/tabs/iconfont.eot');
+  /* IE9*/
+  src: url('../../assets/tabs/iconfont.eot#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../../assets/tabs/iconfont.woff') format('woff'),
+    url('../../assets/tabs/iconfont.ttf') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../../assets/tabs/iconfont.svg#iconfont') format('svg');
+
+  /* iOS 4.1- */
+}
+
+
+.ion-md-wenzhang:before {
+  content: "\e603";
+}
+
+.ion-ios-wenzhang:before {
+  content: "\e603";
+}
+
+.ion-ios-wenzhang-outline:before {
+  content: "\e603";
+}
